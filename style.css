@@ -1,0 +1,76 @@
+
+/* if a tag has class, we should do tag.class to change its property  */
+header.jumbotron{
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/14/564/1014/league-of-legends-jinx-league-of-legends-arcane-animated-series-netflix-tv-series-hd-wallpaper-preview.jpg");
+  height: 300px;
+  color:white;
+  font-size:100px;
+  margin-bottom: 0px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+li{
+  text-align: center;
+  align-content: center;
+
+}
+li a{
+  /* color:white; */
+}
+.list-group{
+
+  display: inline;
+
+}
+.list-group-item{
+  width: 1000px;
+  margin-inline:auto;
+}
+.label-primary{
+  margin-right: 10px;
+}
+#showpost{
+  margin:auto;
+  width: 50%;
+
+
+}
+#write{
+  float: right;
+  margin-right: 25%;
+}
+#bar{
+  margin-top:100px;
+}
+article{
+  margin: auto;
+  width: 50%
+}
+
+#title_input{
+  width: 70%;
+  float: left;
+}
+#username_input{
+  width: 30%;
+}
+textarea{
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+#controlpost{
+  float: right;
+}
+
+#aria_label{
+  text-align: center;
+}
