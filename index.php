@@ -25,10 +25,10 @@ $conn = connectToDB($config["host"],$config["duser"],$config["dpw"], $config["dn
 
 
   <ul class="nav nav-pills navbar navbar-inverse">
-    <li role="presentation" class="col-md-2"><a href="http://localhost/index.php?id&post_id&page=1">전체게시판</a></li>
-    <li role="presentation" class="col-md-2"><a href="http://localhost/index.php?id=1&post_id&page=1">자유게시판</a></li>
-    <li role="presentation" class="col-md-2"><a href="http://localhost/index.php?id=2&post_id&page=1">정치게시판</a></li>
-    <li role="presentation" class="col-md-2"><a href="http://localhost/index.php?id=3&post_id&page=1">음식게시판</a></li>
+    <li role="presentation" class="col-md-2"><a href="http://localhost/index.php?id&post_id&page=1">ALL TOPIC</a></li>
+    <li role="presentation" class="col-md-2"><a href="http://localhost/index.php?id=1&post_id&page=1">FREE TOPIC</a></li>
+    <li role="presentation" class="col-md-2"><a href="http://localhost/index.php?id=2&post_id&page=1">POLITICAL TOPIC</a></li>
+    <li role="presentation" class="col-md-2"><a href="http://localhost/index.php?id=3&post_id&page=1">FOOD TOPIC</a></li>
   </ul>
   <?php
   if($_GET['id']!=null){
